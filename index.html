@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SearchAssist SDK</title>
+</head>
+
+<body>
+    <script src="https://jp-searchassist.kore.ai:443/searchassistapi/websdkjs"></script>
+    <script type="text/javascript"> 
+        KoreSearchSDK.KRSearchConfig.API_KEY_CONFIG.KEY = "31733c030fc44fa0a9c3e9a84a7030324cc29b594673431091e41aacf0cf4e5est72";
+        var findlySDK = new KoreSearchSDK.KRSearch(KoreSearchSDK.KRSearchConfig); 
+        findlySDK.show(KoreSearchSDK.KRSearchConfig); 
+    </script>
+</body>
+
+</html>
